@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         listItem.innerHTML = `
         <p>${cleanFileName(fileName)}</p>
             <audio controls>
-                <source src="./mp3/${fileName}" type="audio/mpeg">
+                <source src="./mp3/${fileName.normalize("NFC")}" type="audio/mpeg">
                 브라우저가 오디오를 지원하지 않습니다.
             </audio>
         `;
