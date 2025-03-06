@@ -10,8 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "2안_경량화추가축소", prefix: "2안-경량화추가축소" },
     ];
 
-    const group1Files = ["샘플_기존모델.mp3", "샘플_1안-기존모델축소.mp3", "샘플_2안-경량화.mp3", "샘플_2안-경량화추가축소.mp3"];
-    const group2Files = ["샘플2_기존모델.mp3", "샘플2_1안-기존모델축소.mp3", "샘플2_2안-경량화.mp3", "샘플2_2안-경량화추가축소.mp3"];
+    const group1Files = [0, 1];
 
 
     function createTableRow(model) {
