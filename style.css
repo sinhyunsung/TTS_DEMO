@@ -8,13 +8,27 @@ h1 {
     color: #333;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 20px;
 }
 
-li {
-    margin: 10px 0;
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.first-col {
+    font-weight: bold;
+    text-align: left;
+    background-color: #f8f8f8;
+    width: 15%;
 }
 
 audio {
